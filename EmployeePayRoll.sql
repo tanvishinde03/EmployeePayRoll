@@ -26,3 +26,6 @@ VALUES
 SELECT * FROM EmployeePayRoll_Table;
 SELECT * FROM EmployeePayRoll_Table WHERE EmployeeId=3;
 
+--UC5
+SELECT EmployeeSalary FROM EmployeePayRoll_Table WHERE EmployeeName = 'Tanvi'
+
