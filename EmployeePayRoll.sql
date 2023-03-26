@@ -37,3 +37,8 @@ UPDATE EmployeePayRoll_Table SET Gender = 'M' WHERE EmployeeName = 'Jay'
 UPDATE EmployeePayRoll_Table SET Gender = 'M' WHERE EmployeeName = 'Deep'
 UPDATE EmployeePayRoll_Table SET Gender = 'F' WHERE EmployeeName = 'Priya'
 
+--UC7
+SELECT Gender , SUM(EmployeeSalary) AS SumOfSalary FROM EmployeePayRoll_Table GROUP BY Gender 
+SELECT Gender , AVG(EmployeeSalary) AS AvgOfSalary FROM EmployeePayRoll_Table GROUP BY Gender 
+SELECT Gender , MIN(EmployeeSalary) AS MinOfSalary FROM EmployeePayRoll_Table GROUP BY Gender 
+SELECT Gender , MAX(EmployeeSalary) AS MaxOfSalary FROM EmployeePayRoll_Table GROUP BY Gender 
