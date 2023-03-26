@@ -22,3 +22,7 @@ VALUES
 ('Deep',50000,'2023-03-12'),
 ('Priya',30000,'2023-03-12');
 
+--UC4
+SELECT * FROM EmployeePayRoll_Table;
+SELECT * FROM EmployeePayRoll_Table WHERE EmployeeId=3;
+
