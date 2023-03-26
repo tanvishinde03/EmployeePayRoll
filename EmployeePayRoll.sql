@@ -29,3 +29,11 @@ SELECT * FROM EmployeePayRoll_Table WHERE EmployeeId=3;
 --UC5
 SELECT EmployeeSalary FROM EmployeePayRoll_Table WHERE EmployeeName = 'Tanvi'
 
+--UC6
+ALTER TABLE EmployeePayRoll_Table ADD Gender CHAR(1)
+
+UPDATE EmployeePayRoll_Table SET Gender = 'F' WHERE EmployeeName = 'Tanvi'
+UPDATE EmployeePayRoll_Table SET Gender = 'M' WHERE EmployeeName = 'Jay'
+UPDATE EmployeePayRoll_Table SET Gender = 'M' WHERE EmployeeName = 'Deep'
+UPDATE EmployeePayRoll_Table SET Gender = 'F' WHERE EmployeeName = 'Priya'
+
