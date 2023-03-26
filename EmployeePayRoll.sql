@@ -13,3 +13,12 @@ StartDate Date
 );
 
 SELECT * FROM EmployeePayRoll_Table
+
+-- UC3 
+INSERT INTO EmployeePayRoll_Table(EmployeeName, EmployeeSalary,StartDate)
+VALUES
+('Tanvi',95000,'2023-03-12'),
+('Jay',40000,'2023-03-12'),
+('Deep',50000,'2023-03-12'),
+('Priya',30000,'2023-03-12');
+
